@@ -123,6 +123,8 @@
 				TargetAttributes = {
 					D17EB37E1D83A105006EE411 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3S3EQ7P95S;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -327,10 +329,12 @@
 			baseConfigurationReference = D6EF08A88607F263E41DB230 /* Pods-TestOperations.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3S3EQ7P95S;
 				INFOPLIST_FILE = TestOperations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.staysorted.TestOperations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -339,10 +343,12 @@
 			baseConfigurationReference = C475075DA316648E06FFD4D8 /* Pods-TestOperations.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3S3EQ7P95S;
 				INFOPLIST_FILE = TestOperations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.staysorted.TestOperations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};

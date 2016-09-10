@@ -1,14 +1,24 @@
 PODS:
-  - Operations/+CloudKit (3.2.0):
+  - Operations/+CloudKit (3.3.1):
     - Operations/Standard
-  - Operations/Standard (3.2.0)
+  - Operations/Standard (3.3.1)
 
 DEPENDENCIES:
-  - Operations/+CloudKit
+  - Operations/+CloudKit (from `https://github.com/ProcedureKit/ProcedureKit.git`, branch `swift/2.3`)
+
+EXTERNAL SOURCES:
+  Operations:
+    :branch: swift/2.3
+    :git: https://github.com/ProcedureKit/ProcedureKit.git
+
+CHECKOUT OPTIONS:
+  Operations:
+    :commit: e79d22bc32e2e4faad6cdcde31c71187357b1154
+    :git: https://github.com/ProcedureKit/ProcedureKit.git
 
 SPEC CHECKSUMS:
-  Operations: 4c5f06d7328f1b097d5dac5c0d614917ecbc96e7
+  Operations: 6a33d325dae88de21b8edc69b9884fce01aea22b
 
-PODFILE CHECKSUM: 207cd422b7ed5bdc7c8f4c1ae2ed045578654fbe
+PODFILE CHECKSUM: b51feaba3dae82253573eb361cb8202564d2c734
 
 COCOAPODS: 1.0.1
